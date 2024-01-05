@@ -17,3 +17,14 @@ yarn add soteriacrypt
 
 
 ## Usage
+``` javascript
+let SoteriaCrypt = require("soteriacrypt");
+
+let soteriaCrypt = new SoteriaCrypt();
+
+//Encrypt data
+let encrypted = soteriaCrypt.encrypt("Hello World");
+
+//Decrypt data
+let decrypted = soteriaCrypt.decrypt(encrypted);
+```

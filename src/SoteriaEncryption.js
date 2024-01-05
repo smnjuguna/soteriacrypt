@@ -6,7 +6,7 @@ module.exports = class SoteriaEncryption {
     constructor() {
         this.iv = Buffer.from(process.env.CRYPT_IV, 'utf-8');
         this.key = Buffer.from(process.env.CRYPT_KEY, 'utf-8');
-        this.cypher = process.env.SOTERIA_CIPHER;
+        this.cypher = process.env.CRYPT_CIPHER;
     }
 
     encrypt(data) {
