@@ -1,0 +1,27 @@
+{
+  "name": "soteriacrypt",
+  "version": "1.0.0",
+  "description": "Package for encrypting and decrypting using AES-256-CBC",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smnjuguna/soteriacrypt.git"
+  },
+  "keywords": [
+    "AES",
+    "Encryption"
+  ],
+  "author": "Simon Peter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smnjuguna/soteriacrypt/issues"
+  },
+  "homepage": "https://github.com/smnjuguna/soteriacrypt#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "env": "^0.0.2"
+  }
+}
