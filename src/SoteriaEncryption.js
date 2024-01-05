@@ -65,6 +65,8 @@ module.exports = class SoteriaEncryption {
         }
         const decoded = JSON.parse(Buffer.from(data, 'base64').toString('utf-8'));
 
+        this.dd(decoded);
+
         if (!this.validPayload(decoded)) {
             this.dd('Invalid Payload.');
         }
