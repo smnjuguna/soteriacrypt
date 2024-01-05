@@ -4,7 +4,8 @@
   "description": "Package for encrypting and decrypting using AES-256-CBC",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "start": "node index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
