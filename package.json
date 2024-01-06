@@ -1,6 +1,6 @@
 {
   "name": "soteriacrypt",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Package for encrypting and decrypting using AES-256-CBC",
   "main": "src/SoteriaEncryption.js",
   "scripts": {
